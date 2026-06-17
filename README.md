@@ -8,6 +8,10 @@ Projeto desenvolvido para a disciplina de ESOFT. O sistema foi criado para ajuda
 
 Nessa primeira entrega foi feita a estrutura base da aplicação. O usuário consegue cadastrar materiais novos e visualizar os que já estão no estoque, tudo conectado com a API do MockAPI.
 
+## Sprint 2
+
+Nessa entrega foi adicionado o módulo de retirada e exclusão de materiais. Ao clicar em Baixar, abre um modal onde o usuário informa a quantidade a retirar. O sistema valida se a quantidade é válida antes de atualizar o estoque no servidor. Também foi implementada a exclusão de itens com confirmação.
+
 ## Tecnologias usadas
 
 - HTML
