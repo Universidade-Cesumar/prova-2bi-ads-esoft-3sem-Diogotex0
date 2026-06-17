@@ -1,5 +1,3 @@
-/* Caso queira utilizar framework como Bootstrap para estilização, pode utilizar. Basta ignoar esse arquivo */
-
 * {
     margin: 0;
     padding: 0;
@@ -72,4 +70,77 @@ button:hover {
 .material-item {
     padding: 10px;
     border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-baixar {
+    background-color: #28a745;
+    padding: 6px 12px;
+    margin-right: 5px;
+}
+
+.btn-baixar:hover {
+    background-color: #1e7e34;
+}
+
+.btn-excluir {
+    background-color: #dc3545;
+    padding: 6px 12px;
+}
+
+.btn-excluir:hover {
+    background-color: #bd2130;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-box {
+    background: white;
+    padding: 24px;
+    width: 360px;
+}
+
+.modal-box h3 {
+    margin-bottom: 10px;
+}
+
+.modal-box p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.modal-box input {
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.modal-botoes {
+    display: flex;
+    gap: 8px;
+}
+
+#btn-fechar-modal {
+    background-color: #aaa;
+}
+
+#btn-fechar-modal:hover {
+    background-color: #888;
+}
+
+.sem-resultados {
+    text-align: center;
+    color: #aaa;
+    padding: 20px;
 }
